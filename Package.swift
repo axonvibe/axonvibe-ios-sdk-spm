@@ -1,8 +1,8 @@
 // swift-tools-version:5.3.0
 import PackageDescription
 
-let version = "17.7.0"
-let checksum = "8a6f74ee90f4cbd7938b042caf0b50ec24ba094f2631a195a2eaaac859058ed7"
+let version = "17.7.1"
+let checksum = "eb6afe6e4bb53e5324982907e3054697ea0286e30025b9e78507a20681ba8590"
 
 let package = Package(
     name: "VibeSDK",
