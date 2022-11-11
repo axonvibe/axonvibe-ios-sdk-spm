@@ -2,7 +2,7 @@
 import PackageDescription
 
 let version = "17.11.1"
-let checksum = "ba365ddd0d20f7ad45d7e4957e866da3f7960e1e040890d6e80118d4da939115"
+let checksum = "e90cf67411e46d25ea6bf2e10a8a6fa5166422829b13eb9df81629e05e37bd78"
 
 let package = Package(
     name: "VibeSDK",
