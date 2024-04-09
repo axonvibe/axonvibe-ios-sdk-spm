@@ -1,8 +1,8 @@
 // swift-tools-version: 5.3.0
 import PackageDescription
 
-let version = "17.23.0"
-let checksum = "2137b512e102750e33ce3741908ea8f7892165148332edeadb37c0c80850e8bf"
+let version = "17.23.1"
+let checksum = "6a50c4de22f4a61c03f269555c2844362953c8c6a918740579f77abe1c387247"
 
 let package = Package(
     name: "VibeSDK",
@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VibeSDK",
-            url: "https://axonvibe.jfrog.io/artifactory/ios-sdk-release/VibeSDK/\(version)/VibeSDK.zip",
+            url: "https://axonvibe.jfrog.io/artifactory/ios-sdk-snapshot-spm/VibeSDK/\(version)/VibeSDK.zip",
             checksum: checksum
         )
     ]
