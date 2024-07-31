@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VibeSDK",
-            url: "https://axonvibe.jfrog.io/artifactory/ios-sdk-snapshot-spm/VibeSDK/\(version)/VibeSDK.zip",
+            url: "https://axonvibe.jfrog.io/artifactory/ios-sdk-release/VibeSDK/\(version)/VibeSDK.zip",
             checksum: checksum
         )
     ]
